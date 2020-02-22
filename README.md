@@ -4,7 +4,7 @@ This repository contains files as in response to the selection test for the proj
 ## Files
 The repository contains various files, each one is explained below- <br/> <br/>
 **1) ST2_TM_cmds.sh** - This bash file contains the commands for StringTie2 & Tablemaker <br/>
-It uses long read mode of StringTie on the given bam file to generate the .gtf file, (-p 6 for increasing the no. of threads, -v for verbose output) <br/> 
+It uses long read mode of StringTie on the given bam file to generate the .gtf file, (-L for long-reads, -p 6 for increasing the no. of threads, -v for verbose output) <br/> 
 `stringtie -L RNA_nanopore.brain.C1R1_mapping_E94_minimap2_primary_no_read_less_than_80QC.bam -o RNA_nanopore.brain.gtf -p 6 -v` <br/>
 //ly for liver file <br/>
 Next, it uses tablemaker command to generate the .ctab files for ballgown to import (again -p 6 for multithreading, also it uses fr-firststrand as its library-type ) <br/>

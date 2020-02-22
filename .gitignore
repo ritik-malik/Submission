@@ -1,4 +1,4 @@
-FPKM_brain.csv
-FPKM_liver.csv
+tx_brain.csv
+tx_liver.csv
 RNA_nanopore.brain.gtf
 RNA_nanopore.liver.gtf
